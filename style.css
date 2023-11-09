@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'montserrat', sans-serif; */
+}
+
+body {
+    background-color: #000;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #0000ff;
+    padding: 100px 50px;
+    color: #fff;
+}
+
+.btn button {
+    margin-top: 25px;
+    padding: 10px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#userChoice {
+    color: #ff0;
+}
+
+#computerChoice {
+    color: #ff0;
+}
